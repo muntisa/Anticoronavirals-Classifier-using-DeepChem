@@ -1,5 +1,0 @@
-- datasets/antivirals_SMILES.csv = used to calculate descriptores using smiles of antivirus; contains Class output; to build the model
-
-- datasets/DB_SMILES4prediction.csv = used to calculate descriptors for DrugBank molecules for predictions
-
- 
