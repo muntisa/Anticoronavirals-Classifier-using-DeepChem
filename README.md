@@ -17,4 +17,6 @@ If you have problem with DeepChem installation, you should use:
 !bash ./Miniconda3-latest-Linux-x86_64.sh -b -f -p /usr/local
 !conda install -y -c deepchem -c rdkit -c conda-forge -c omnia deepchem-gpu=2.3.0 python=3.7
 import sys
-sys.path.append('/usr/local/lib/python3.7/site-packages/')```
+sys.path.append('/usr/local/lib/python3.7/site-packages/')
+```
+
