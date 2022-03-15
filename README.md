@@ -6,7 +6,22 @@ Classifier and predictions for anti-coronavirals drug repurposing
 - [antivirals_SMILES.csv from datasets](datasets/antivirals_SMILES.csv) - external dataset used to calculate descriptors for DrugBank molecules to predict antiviral activity for drug repurposing
 - [antivirals_predictions.csv](antivirals_predictions.csv) - the predictions with the best model for drug repurposing
 
-Note:
+Note for GColab execution:
+[2022]
+
+Replace the first cell with installs with:
+
+```! pip install --quiet deepchem```
+
+The new tensorflow 2 has no set_random_seed(), so you should replace the command:
+
+```tf.set_random_seed(42)```
+
+with 
+
+```tf.random.set_seed(42)```
+
+[OLD]
 
 If you have problem with DeepChem installation, you should use:
 
